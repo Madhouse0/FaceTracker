@@ -113,6 +113,16 @@ face_tracker_fresher/
 - All captured images should be in the `faces/` folder for the model to train properly
 - The trained model is not persistent; it retrains each time you run the script
 - Unknown faces show a confidence score; adjust the threshold if needed
+- For best results, use clear and well-lit images for training
+- Multiple images per person improve recognition accuracy
+- Performance may vary depending on lighting and camera quality
+
+## Future Improvements
+
+- Improve recognition accuracy with advanced models
+- Add multi-person tracking
+- Build a simple UI/dashboard
+- Deploy as a web or desktop application
 
 ## License
 
